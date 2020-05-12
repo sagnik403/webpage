@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(Penguins.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border: 5px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    color: black;
+    background-color: turquoise;
+}
+ul li.active a{
+    color: black;
+    background-color: blanchedalmond;
+}
+ul li.active a:hover{
+    color: black;
+    background-color: chocolate;
+}
+div.main{
+    position: absolute;
+    left: 38%;
+    top: 42%;
+}
+h1{
+    color: white;
+    border: 5px solid greenyellow;
+    margin: auto;
+    padding: 20px;
+}
+div.button{
+    position: absolute;
+    left: 38%;
+    top: 58%;
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    border: 5px  white;
+    transition: 0.6s ease;
+}
+
+.btn:hover a{
+    color: black;
+    background-color: gold;
+    
+}
+
+div.image{
+    position: absolute;
+    top: 25%;
+}
+div.image img{
+    height: 190px;
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
